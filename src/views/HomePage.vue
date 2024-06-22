@@ -3,9 +3,11 @@
 
 <template>
   <main>
-    <p>Sangarid</p>
-    <p>Eesti guild World of Warcraftis</p>
-    <p>Tegutseme Tarren Mill realmis Horde poolel</p>
+    <div class="main-content">
+      <h1>Sangarid</h1>
+      <p>Eesti guild World of Warcraftis</p>
+      <p>Tegutseme Tarren Mill realmis Horde poolel</p>
+    </div>
     <p>
       <a href="/liitu"><button>Liitu</button></a>
     </p>
@@ -16,3 +18,46 @@
     </p>
   </main>
 </template>
+
+<style>
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.3;
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+}
+
+p {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  margin: 0 0 1rem 0;
+  display: block;
+}
+
+button {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  display: inline-block;
+}
+
+.main-content {
+  border: 0;
+  border-style: solid;
+  border-color: white;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  max-width: 100%;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  padding: 3rem 2rem;
+  display: block;
+}
+</style>

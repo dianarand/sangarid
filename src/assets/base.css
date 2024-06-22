@@ -20,7 +20,9 @@ body {
   transition:
     color 0.5s,
     background-color 0.5s;
-  line-height: 1.6;
+  line-height: 2;
+  text-align: center;
+  text-transform: uppercase;
   font-family:
     Inter,
     -apple-system,
