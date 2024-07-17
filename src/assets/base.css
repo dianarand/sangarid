@@ -2,7 +2,7 @@
   --dark-bg-color: rgba(26, 24, 22, 1);
   --light-bg-color: rgba(38, 35, 33, 1);
   --minor-text-color: rbga(161, 159, 161, 1);
-  --accent-color: rgba(255, 189, 10, 1);
+  --accent-color: rgba(240, 162, 70, 1);
 }
 
 *,
@@ -16,7 +16,12 @@
 body {
   min-height: 100vh;
   color: white;
-  background: var(--dark-bg-color);
+  background-repeat: no-repeat;
+  background-color: var(--dark-bg-color);
+  background-image: url("/background.png"), linear-gradient(var(--dark-bg-color), var(--light-bg-color));
+  background-blend-mode: exclusion;
+  background-position: 20%;
+  background-size: cover;
   transition:
     color 0.5s,
     background-color 0.5s;
