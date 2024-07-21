@@ -12,9 +12,9 @@
       <a href="/liitu"><button>Liitu</button></a>
     </p>
     <p>
-      <a href="https://raider.io/guilds/eu/tarren-mill/Sangarid"><img src="/io-logo.png" style="width: 50px; height: 50px;"></a>
-      <a href="https://worldofwarcraft.blizzard.com/en-gb/guild/eu/tarren-mill/sangarid"><img src="/wow-logo.png" style="width: 50px; height: 50px;"></a>
-      <a href="https://www.warcraftlogs.com/guild/eu/tarren-mill/Sangarid"><img src="/logs-logo.png" style="width: 50px; height: 50px;"></a>
+      <a href="https://raider.io/guilds/eu/tarren-mill/Sangarid"><img src="/io-logo.png" class="icon"></a>
+      <a href="https://worldofwarcraft.blizzard.com/en-gb/guild/eu/tarren-mill/sangarid"><img src="/wow-logo.png" class="icon"></a>
+      <a href="https://www.warcraftlogs.com/guild/eu/tarren-mill/Sangarid"><img src="/logs-logo.png" class="icon"></a>
     </p>
   </main>
 </template>
@@ -59,5 +59,11 @@ button {
   margin-bottom: 3.5rem;
   padding: 3rem 2rem;
   display: block;
+}
+
+.icon {
+  width: 50px; 
+  height: 50px;
+  margin: 5px;
 }
 </style>
