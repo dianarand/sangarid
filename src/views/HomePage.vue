@@ -8,13 +8,6 @@
       <p>Eesti guild World of Warcraftis</p>
       <p>Tegutseme Tarren Mill realmis Horde poolel</p>
       <p>Oodatud huvilised ka mujalt</p>
-      <h2>Meie tegemised</h2>
-      <h3>Hooaegade alguses mängime koos:</h3>
-      <ul>
-        <li>Raidime regulaarselt normal/heroic tasemel</li>
-        <li>Jookseme dungeoneid</li>
-        <li>Korraldame vahel achievement rune</li>
-      </ul>
     </div>
     <p>
       <a href="/discord"><button>Liitu Discordiga</button></a>
@@ -36,32 +29,12 @@ h1 {
   margin: 0 0 2rem 0;
 }
 
-h2 {
-  font-size: 1.5rem;
-  line-height: 1.2;
-  letter-spacing: 0.4rem;
-  font-weight: 500;
-  margin: 2rem 0 1rem 0;
-}
-
-h3 {
-  font-size: 0.8rem;
-  letter-spacing: 0.2rem;
-}
-
 p {
   font-size: 0.8rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: inherit;
   margin: 0 0 1rem 0;
   display: block;
 }
-
-li {
-  font-size: 0.8rem;
-  letter-spacing: 0.2rem;
-  list-style: disc inside;
-}
-
 
 button {
   background-color: var(--accent-color);
@@ -72,7 +45,7 @@ button {
   padding: 1rem 2rem;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
+  letter-spacing: inherit;
   display: inline-block;
 }
 
@@ -83,10 +56,22 @@ button {
   border-top-width: 1px;
   border-bottom-width: 1px;
   max-width: 100%;
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
   padding: 3rem 2rem;
   display: block;
+}
+
+@media (max-height: 700rem) {
+  .main-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-height: 700rem) {
+  .main-content {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
 }
 
 .icon {
