@@ -7,7 +7,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', component: HomePage },
-    { path: '/liitu', component: JoinRedirect },
+    { path: '/discord', component: JoinRedirect },
     { path: '/amirdrassil', component: RaidSignup }
   ]
 })

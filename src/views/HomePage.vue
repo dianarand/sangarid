@@ -7,9 +7,17 @@
       <h1>Sangarid</h1>
       <p>Eesti guild World of Warcraftis</p>
       <p>Tegutseme Tarren Mill realmis Horde poolel</p>
+      <p>Oodatud huvilised ka mujalt</p>
+      <h2>Meie tegemised</h2>
+      <h3>Hooaegade alguses mängime koos:</h3>
+      <ul>
+        <li>Raidime regulaarselt normal/heroic tasemel</li>
+        <li>Jookseme dungeoneid</li>
+        <li>Korraldame vahel achievement rune</li>
+      </ul>
     </div>
     <p>
-      <a href="/liitu"><button>Liitu</button></a>
+      <a href="/discord"><button>Liitu Discordiga</button></a>
     </p>
     <p>
       <a href="https://raider.io/guilds/eu/tarren-mill/Sangarid"><img src="/io-logo.png" class="icon"></a>
@@ -28,12 +36,32 @@ h1 {
   margin: 0 0 2rem 0;
 }
 
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem 0;
+}
+
+h3 {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+
 p {
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
   margin: 0 0 1rem 0;
   display: block;
 }
+
+li {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  list-style: disc inside;
+}
+
 
 button {
   background-color: var(--accent-color);
