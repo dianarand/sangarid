@@ -1,0 +1,49 @@
+:root {
+  --dark-bg-color: rgba(26, 24, 22, 1);
+  --light-bg-color: rgba(38, 35, 33, 1);
+  --minor-text-color: rbga(161, 159, 161, 1);
+  --accent-color: rgba(240, 162, 70, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-color: var(--dark-bg-color);
+  background-image: url("/background.png"), linear-gradient(var(--dark-bg-color), var(--light-bg-color));
+  background-blend-mode: exclusion;
+  background-position: 20%;
+  background-size: cover;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 2;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
