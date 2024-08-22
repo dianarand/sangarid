@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
   <main>
     <div class="main-content">
@@ -27,51 +24,6 @@ h1 {
   letter-spacing: 0.5rem;
   font-weight: 600;
   margin: 0 0 2rem 0;
-}
-
-p {
-  font-size: 0.8rem;
-  letter-spacing: inherit;
-  margin: 0 0 1rem 0;
-  display: block;
-}
-
-button {
-  background-color: var(--accent-color);
-  border: none;
-  border-radius: 12px;
-  color: white;
-  font-weight: 500;
-  padding: 1rem 2rem;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: inherit;
-  display: inline-block;
-}
-
-.main-content {
-  border: 0;
-  border-style: solid;
-  border-color: white;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  max-width: 100%;
-  padding: 3rem 2rem;
-  display: block;
-}
-
-@media (max-height: 700rem) {
-  .main-content {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-}
-
-@media (min-height: 700rem) {
-  .main-content {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-  }
 }
 
 .icon {

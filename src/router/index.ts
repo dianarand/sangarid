@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import JoinRedirect from '../views/JoinRedirect.vue'
+import OldRaid from '../views/OldRaid.vue'
 import RaidSignup from '../views/RaidSignup.vue'
 
 const router = createRouter({
@@ -8,7 +9,8 @@ const router = createRouter({
   routes: [
     { path: '/', component: HomePage },
     { path: '/discord', component: JoinRedirect },
-    { path: '/amirdrassil', component: RaidSignup }
+    { path: '/amirdrassil', component: OldRaid },
+    { path: '/nerubar', component: RaidSignup}
   ]
 })
 
