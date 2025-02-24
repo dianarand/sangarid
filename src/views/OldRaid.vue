@@ -10,8 +10,13 @@
     </main>
 </template>
 
-<script setup>
-defineProps({
-  name: String
-});
+<script lang="ts">
+export default {
+  props: {
+    name: {
+      type: String,
+      required: true
+    }
+  }
+}
 </script>
