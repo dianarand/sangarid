@@ -1,7 +1,7 @@
 <template>
     <main>
       <div class="main-content">
-        <p>Amirdrassil raid on lõppenud</p>
+        <p>{{ name }} raid on lõppenud</p>
         <p>Värskeimad raidiplaanid leiad Discordist</p>
       </div>
       <p>
@@ -9,3 +9,9 @@
       </p>
     </main>
 </template>
+
+<script setup>
+defineProps({
+  name: String
+});
+</script>

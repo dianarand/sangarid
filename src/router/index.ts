@@ -9,8 +9,9 @@ const router = createRouter({
   routes: [
     { path: '/', component: HomePage },
     { path: '/discord', component: JoinRedirect },
-    { path: '/amirdrassil', component: OldRaid },
-    { path: '/nerubar', component: RaidSignup}
+    { path: '/amirdrassil', component: OldRaid, props: { name: 'Amirdrassil' } },
+    { path: '/nerubar', component: OldRaid, props: { name: "Nerub'ar Palace" } },
+    { path: '/undermine', component: RaidSignup }
   ]
 })
 
