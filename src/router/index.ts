@@ -11,7 +11,8 @@ const router = createRouter({
     { path: '/discord', component: JoinRedirect },
     { path: '/amirdrassil', component: OldRaid, props: { name: 'Amirdrassil' } },
     { path: '/nerubar', component: OldRaid, props: { name: "Nerub'ar Palace" } },
-    { path: '/undermine', component: RaidSignup }
+    { path: '/undermine', component: OldRaid, props: { name: "Liberation of Undermine"} },
+    { path: '/manaforge', component: RaidSignup }
   ]
 })
 
