@@ -14,9 +14,9 @@ const router = createRouter({
     { path: '/amirdrassil', component: OldRaid, props: { name: 'Amirdrassil' } },
     { path: '/nerubar', component: OldRaid, props: { name: "Nerub'ar Palace" } },
     { path: '/undermine', component: OldRaid, props: { name: "Liberation of Undermine"} },
-    { path: '/manaforge', 
+    { path: '/midnight', 
       redirect: () => {
-        window.location.href = 'https://docs.google.com/spreadsheets/d/1JgevrjDq_gRFju8Uy1pnF98--josdvIYnUnQekh72qM/edit?usp=sharing';
+        window.location.href = 'https://docs.google.com/spreadsheets/d/1AyJoMdihpW2uz9AnTOBY-z4PY3Ee5FH4wStkxvRZmcM/edit?usp=sharing';
         return '';
     }
      }
