@@ -14,12 +14,13 @@ const router = createRouter({
     { path: '/amirdrassil', component: OldRaid, props: { name: 'Amirdrassil' } },
     { path: '/nerubar', component: OldRaid, props: { name: "Nerub'ar Palace" } },
     { path: '/undermine', component: OldRaid, props: { name: "Liberation of Undermine"} },
-    { path: '/midnight', 
+    { path: '/midnight', component: OldRaid, props: { name: "Voidspire/Dreamrift/March on Quel'danas" }},
+    { path: '/abyss',
       redirect: () => {
-        window.location.href = 'https://docs.google.com/spreadsheets/d/1AyJoMdihpW2uz9AnTOBY-z4PY3Ee5FH4wStkxvRZmcM/edit?usp=sharing';
+        window.location.href = 'https://docs.google.com/spreadsheets/d/1SUJKiuaNKrZk5SSVN5jCgbyRJmPqo9XngzE_BWv9RAY/edit?usp=sharing';
         return '';
+      }
     }
-     }
   ]
 })
 
